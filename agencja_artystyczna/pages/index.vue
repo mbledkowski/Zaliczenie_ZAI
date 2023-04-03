@@ -1,3 +1,3 @@
 <template>
-  
+  <hero />
 </template>
