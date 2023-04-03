@@ -14,6 +14,7 @@
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix"
   },
   "devDependencies": {
+    "@nuxtjs/i18n": "8.0.0-beta.10",
     "@total-typescript/ts-reset": "^0.4.2",
     "@types/node": "^18.15.11",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
