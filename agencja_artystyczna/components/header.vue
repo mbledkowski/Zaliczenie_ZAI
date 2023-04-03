@@ -9,19 +9,29 @@
               <li><a></a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl">{{ $t('comName') }}</a>
+          <NuxtLink class="btn btn-ghost normal-case text-xl" to="/">{{ $t('comName') }}</NuxtLink>
         </div>
-        <div class="navbar-center hidden lg:flex">
+        <div class="navbar-end hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
-            <li><a></a></li>
-            <li><a></a></li>
-            <li><a></a></li>
-            <li><a></a></li>
-            <li><a></a></li>
-            <li><a></a></li>
+            <li>
+              <NuxtLink to="/about">{{ $t('about') }}</NuxtLink>
+            </li>
+            <li></li>
+            <NuxtLink to="/organization">{{ $t('organization') }}</NuxtLink>
+            </li>
+            <li></li>
+            <NuxtLink to="/technique">{{ $t('technique') }}</NuxtLink>
+            </li>
+            <li></li>
+            <NuxtLink to="/service">{{ $t('service') }}</NuxtLink>
+            </li>
+            <li></li>
+            <NuxtLink to="/events">{{ $t('events') }}</NuxtLink>
+            </li>
+            <li></li>
+            <NuxtLink to="/contact">{{ $t('contact') }}</NuxtLink>
+            </li>
           </ul>
-        </div>
-        <div class="navbar-end">
         </div>
       </div>
     </div>
