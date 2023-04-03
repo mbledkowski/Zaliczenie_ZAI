@@ -1,8 +1,10 @@
 export default {
   en: {
-    welcome: 'Welcome'
+    welcome: 'Welcome',
+    comName: 'Artistic Agency'
   },
   pl: {
-    welcome: 'Witaj'
+    welcome: 'Witaj',
+    comName: 'Agencja Artystyczna'
   }
 }
