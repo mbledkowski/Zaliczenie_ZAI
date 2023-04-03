@@ -9,20 +9,20 @@
                 <li>
                   <NuxtLink to="/about">{{ $t('about') }}</NuxtLink>
                 </li>
-                <li></li>
-                <NuxtLink to="/organization">{{ $t('organization') }}</NuxtLink>
+                <li>
+                  <NuxtLink to="/organization">{{ $t('organization') }}</NuxtLink>
                 </li>
-                <li></li>
-                <NuxtLink to="/technique">{{ $t('technique') }}</NuxtLink>
+                <li>
+                  <NuxtLink to="/technique">{{ $t('technique') }}</NuxtLink>
                 </li>
-                <li></li>
-                <NuxtLink to="/service">{{ $t('service') }}</NuxtLink>
+                <li>
+                  <NuxtLink to="/service">{{ $t('service') }}</NuxtLink>
                 </li>
-                <li></li>
-                <NuxtLink to="/events">{{ $t('events') }}</NuxtLink>
+                <li>
+                  <NuxtLink to="/events">{{ $t('events') }}</NuxtLink>
                 </li>
-                <li></li>
-                <NuxtLink to="/contact">{{ $t('contact') }}</NuxtLink>
+                <li>
+                  <NuxtLink to="/contact">{{ $t('contact') }}</NuxtLink>
                 </li>
               </ul>
             </ul>
@@ -34,20 +34,20 @@
             <li>
               <NuxtLink to="/about">{{ $t('about') }}</NuxtLink>
             </li>
-            <li></li>
-            <NuxtLink to="/organization">{{ $t('organization') }}</NuxtLink>
+            <li>
+              <NuxtLink to="/organization">{{ $t('organization') }}</NuxtLink>
             </li>
-            <li></li>
-            <NuxtLink to="/technique">{{ $t('technique') }}</NuxtLink>
+            <li>
+              <NuxtLink to="/technique">{{ $t('technique') }}</NuxtLink>
             </li>
-            <li></li>
-            <NuxtLink to="/service">{{ $t('service') }}</NuxtLink>
+            <li>
+              <NuxtLink to="/service">{{ $t('service') }}</NuxtLink>
             </li>
-            <li></li>
-            <NuxtLink to="/events">{{ $t('events') }}</NuxtLink>
+            <li>
+              <NuxtLink to="/events">{{ $t('events') }}</NuxtLink>
             </li>
-            <li></li>
-            <NuxtLink to="/contact">{{ $t('contact') }}</NuxtLink>
+            <li>
+              <NuxtLink to="/contact">{{ $t('contact') }}</NuxtLink>
             </li>
           </ul>
         </div>
