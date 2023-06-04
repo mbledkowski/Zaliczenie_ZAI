@@ -2,6 +2,7 @@
   <div class="motto">
     <h1 class="title1">Taniec, Śpiew, Malarstwo, Organizacja</h1>
   </div>
+  <slider />
   <hero />
 </template>
 
