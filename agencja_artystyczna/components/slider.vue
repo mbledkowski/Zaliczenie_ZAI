@@ -34,6 +34,6 @@ export default {
 
 <style lang="css" scoped>
 #slider {
-  margin-top: 150px;
+  margin-top: 120px;
 }
 </style>
