@@ -1,19 +1,26 @@
 <template>
   <div class="aboutUs">
-    <h1 class="title">About us</h1>
+    <h1 class="title">O nas</h1>
+  </div>
+  <div class="hero min-h-screen" style="background-image: url(/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
+    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-content text-center text-neutral-content">
+      <div class="max-w-md">
+        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi.
+          In deleniti eaque aut repudiandae et a id nisi.</p>
+        <button class="btn btn-primary">Get Started</button>
+      </div>
+    </div>
   </div>
 </template>
 
 <style lang="css" scoped>
-  .aboutUs {
-    background-color: #20242e;
-    border-radius: 0.5rem;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 90px;
-    font-size: 25px;
-    position: relative;
-    top: 50%;
-    text-align: center;
-  }
+.title {
+  padding-top: 3px;
+  background-color: #20242e;
+  font-size: 30px;
+  position: relative;
+  text-align: center;
+}
 </style>
