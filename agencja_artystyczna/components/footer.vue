@@ -1,6 +1,7 @@
 <template>
     <div class="containerFooter">
         <footer>
+            <div></div>
             <div class="mapa">Znajdź nas na mapie</div>
             <div class="fbYt">FB, YT</div>
         </footer>
@@ -15,8 +16,7 @@
 
 footer {
     background-color: #2a303c;
-    align-content: space-between;
-    align-items: end;
+    justify-content: space-between;
     flex-wrap: nowrap;
     display: flex;
     flex-direction: row;
@@ -26,7 +26,8 @@ footer {
 }
 
 footer div {
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .mapa {
