@@ -3,13 +3,15 @@
         <footer>
             <div></div>
             <div class="mapa">Znajdź nas na mapie</div>
-            <div class="fbYt">FB, YT</div>
+            <div class="fbYt">
+                <a href="https://www.facebook.com/profile.php?id=100089196045033">FB</a>
+                <a href ="https://www.youtube.com">YT</a>
+            </div>
         </footer>
     </div>
 </template>
 
 <style lang="css" scoped>
-
 .containerFooter {
     background-color: #20242e;
 }
@@ -30,8 +32,14 @@ footer div {
     margin-bottom: 10px;
 }
 
+a {
+    margin-left:10px;
+    margin-right:10px;
+}
+
 .mapa {
     font-size: 25px;
+    margin-left: 40px;
 }
 
 .fbYt {
