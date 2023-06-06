@@ -55,9 +55,3 @@
     </div>
   </header>
 </template>
-
-<style lang="css" scoped>
-.navbar {
-  margin-top: 14px;
-}
-</style>

@@ -1,5 +1,4 @@
 <template>
-  <slider />
   <hero />
 </template>
 
