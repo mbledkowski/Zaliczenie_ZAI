@@ -55,3 +55,5 @@
     </div>
   </header>
 </template>
+
+<style lang="css" scoped></style>

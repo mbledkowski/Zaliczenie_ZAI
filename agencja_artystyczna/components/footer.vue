@@ -18,6 +18,7 @@
 <style lang="css" scoped>
 .containerFooter {
     background-color: #20252e;
+    padding-bottom: 20px;
 }
 
 footer {
@@ -86,13 +87,78 @@ footer div {
     footer {
         width: 600px;
     }
+
     .mapaF {
-        font-size: 18px;
+        font-size: 20px;
+        margin-right: 20px;
     }
 
     .agencjaF {
-        padding-top: 15px;
-        font-size: 13px;
+        padding-top: 13px;
+        font-size: 17px;
     }
+}
+
+@media screen and (max-width: 630px) {
+    footer {
+        width: 400px;
+    }
+
+    .mapaF {
+        padding-top: 14px;
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .agencjaF {
+        padding-top: 16px;
+        font-size: 11px;
+    }
+
+    .fa {
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 1.5em;
+        margin-left: 10px;
+        border-radius: 1.5em;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    footer {
+        width: 300px;
+    }
+
+    .mapaF {
+        padding-top: 20px;
+        font-size: 17px;
+        margin: 0;
+        text-align: right;
+        margin-right: 25px;
+    }
+
+    .agencjaF {
+        padding-top: 17px;
+        font-size: 14px;
+    }
+
+    .fa {
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 1.5em;
+        margin-left: 10px;
+        border-radius: 1.5em;
+        margin-top: 5px;
+    }
+
+    .containerFooter {
+    background-color: #20252e;
+}
 }
 </style>

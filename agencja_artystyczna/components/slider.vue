@@ -31,3 +31,18 @@ export default {
   },
 };
 </script>
+
+<style lang="css" scoped>
+@media screen and (max-width: 1210px) {
+#slider {
+  margin-top: 50px;
+}
+}
+
+@media screen and (max-width: 1023px) {
+  #slider {
+    margin-top: 0px;
+  }
+}
+
+</style>
