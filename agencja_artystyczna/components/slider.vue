@@ -33,7 +33,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
-@media screen and (max-width: 1210px) {
+@media screen and (max-width: 1225px) {
 #slider {
   margin-top: 50px;
 }
