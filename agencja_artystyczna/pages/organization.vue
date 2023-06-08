@@ -18,10 +18,10 @@
                         kariery,
                         który uwzględnia zarówno krótkoterminowe cele, jak i długoterminową strategię.</p>
                 </div>
-                </div>
+            </div>
 
-                <div class="containerLiO">
-                    <div class="organizationText">
+            <div class="containerLiO">
+                <div class="organizationText">
                     <p id="boldP">W ramach naszej organizacji artystycznej zajmujemy się szerokim spektrum działań, takich
                         jak:</p>
                     <ol class="list-decimal">
@@ -43,8 +43,8 @@
                             cele. Śledzimy trendy w branży artystycznej, szukamy nowych możliwości i współpracujemy z innymi
                             profesjonalistami, aby maksymalnie wykorzystać potencjał naszych artystów.</li>
                     </ol>
-                    </div>
                 </div>
+            </div>
         </div>
     </div>
 </template>
@@ -89,6 +89,7 @@ p {
 
 ol {
     margin-left: 40px;
+    margin-top: 10px;
 }
 
 li {

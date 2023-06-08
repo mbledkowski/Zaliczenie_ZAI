@@ -3,7 +3,7 @@
     <div class="hero-overlay bg-opacity-60">
       <div class="containerA">
         <div class="aboutText">
-          <p id="firstP">Witamy na stronie internetowej naszej agencji artystycznej!</p>
+          <p id="firstP">Witamy na stronie internetowej naszej agencji artystycznej</p>
 
           <p>Jesteśmy dynamiczną i kreatywną agencją, która zajmuje się reprezentacją artystów z różnych dziedzin. Nasza
             misja polega na odkrywaniu, wspieraniu i promowaniu utalentowanych artystów, aby pomóc im osiągnąć sukces i
@@ -27,6 +27,7 @@
             strategii rozwoju kariery oraz organizacji występów i projektów artystycznych. Dbamy o naszych artystów na
             każdym etapie ich kariery i staramy się zapewnić im jak najlepsze warunki do rozwijania swojego talentu i
             osiągania sukcesu.</p>
+          <p class="authors">| Autorzy: Maciej Błędkowski, Paweł Szabunio |</p>
         </div>
       </div>
     </div>
@@ -58,5 +59,9 @@ p {
 #firstP {
   font-size: 25px;
   margin-bottom: 40px;
+}
+
+.authors {
+  margin-top: 30px;
 }
 </style>
