@@ -1,8 +1,8 @@
 <template>
   <header class="h-0">
-    <div class="sticky left-0 top-0 p-4 flex">
+    <div id="headerContainer" class="sticky left-0 top-0 p-4 flex">
       <div class="navbar bg-base-100 rounded-lg">
-        <div class="navbar-start">
+        <div id="navbar" class="navbar-start">
           <div class="dropdown">
             <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
               <ul class="menu menu-horizontal px-1">
@@ -56,4 +56,5 @@
   </header>
 </template>
 
-<style lang="css" scoped></style>
+<style lang="css" scoped>
+</style>

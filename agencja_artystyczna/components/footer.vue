@@ -18,7 +18,6 @@
 <style lang="css" scoped>
 .containerFooter {
     background-color: #20252e;
-    padding-bottom: 20px;
 }
 
 footer {
@@ -27,25 +26,23 @@ footer {
     flex-wrap: nowrap;
     display: flex;
     flex-direction: row;
-    border-radius: 0.5rem;
-    margin-bottom: 20px;
     margin: auto;
-    width: 98%;
+    width: 100%;
+    height: 80px;
 }
 
 footer div {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 15px;
 }
 
 .agencjaF {
-    padding-top: 15px;
-    margin-left: 10px;
+    padding-top: 25px;
+    margin-left: 20px;
     font-size: 18px;
 }
 
 .mapaF {
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 23px;
     margin-right: 80px;
 }
@@ -56,6 +53,7 @@ footer div {
 
 .fbYt {
     font-size: 20px;
+    margin-right: 10px
 }
 
 .fa {
@@ -84,9 +82,6 @@ footer div {
 }
 
 @media screen and (max-width: 800px) {
-    footer {
-        width: 600px;
-    }
 
     .mapaF {
         font-size: 20px;
@@ -94,25 +89,22 @@ footer div {
     }
 
     .agencjaF {
-        padding-top: 13px;
         font-size: 17px;
     }
 }
 
 @media screen and (max-width: 630px) {
-    footer {
-        width: 400px;
-    }
 
     .mapaF {
-        padding-top: 14px;
-        font-size: 13px;
+        padding-top: 23px;
+        font-size: 16px;
         margin: 0;
     }
 
     .agencjaF {
-        padding-top: 16px;
-        font-size: 11px;
+        padding-top: 25px;
+        font-size: 14px;
+        margin-left: 10px;
     }
 
     .fa {
@@ -125,24 +117,29 @@ footer div {
         margin-left: 10px;
         border-radius: 1.5em;
     }
-}
 
-@media screen and (max-width: 430px) {
-    footer {
-        width: 300px;
+    .fbYt {
+        font-size: 20px;
+        margin-right: 10px
     }
 
+    .fa-youtube {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+
     .mapaF {
-        padding-top: 20px;
-        font-size: 17px;
+        font-size: 14px;
         margin: 0;
         text-align: right;
         margin-right: 25px;
+        margin-left: 20px;
     }
 
     .agencjaF {
-        padding-top: 17px;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .fa {
@@ -158,7 +155,17 @@ footer div {
     }
 
     .containerFooter {
-    background-color: #20252e;
-}
+        background-color: #20252e;
+
+
+    }
+
+    .fbYt {
+        margin-left: 40px;
+    }
+
+    footer div {
+        padding-top: 5px;
+    }
 }
 </style>
