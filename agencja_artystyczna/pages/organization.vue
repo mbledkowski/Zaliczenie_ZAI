@@ -26,20 +26,22 @@
             font-weight: bold;
             font-size: 20px;
         }
+
+        p {
+            margin-top: 12px;
+        }
+
+        ol {
+            margin-left: 40px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin-top: 10px;
+        }
     }
 
-    p {
-        margin-top: 12px;
-    }
 
-    ol {
-        margin-left: 40px;
-        margin-top: 10px;
-    }
-
-    li {
-        margin-top: 10px;
-    }
 }
 
 .containerLiO {
