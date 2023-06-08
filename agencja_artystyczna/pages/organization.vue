@@ -82,11 +82,6 @@ p {
     margin-top: 12px;
 }
 
-#firstP {
-    font-size: 25px;
-    margin-bottom: 40px;
-}
-
 ol {
     margin-left: 40px;
     margin-top: 10px;
@@ -99,5 +94,26 @@ li {
 #boldP {
     font-weight: bold;
     font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .organizationText {
+        margin: 5px;
+        font-size: 10px;
+    }
+
+    #boldP {
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .containerO {
+    width: 90%;
+}
+
+.containerLiO {
+    width: 90%;
+}
+
 }
 </style>

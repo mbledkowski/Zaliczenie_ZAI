@@ -3,9 +3,9 @@
         <div class="hero-overlay bg-opacity-60">
             <div class="containerC">
                 <div class="contactText">
-                    <p>Zadzwoń do nas: <a id="phone" href="tel:777-666-555">777-666-555</a></p>
-                    <p>Napisz do nas maila: <a id="mail"
-                            href="mailto:agencja.artystyczna.ps.mb@gmail.com">agencja.artystyczna.ps.mb@gmail.com</a></p>
+                    <p>Zadzwoń do nas:</p> <a id="phone" href="tel:777-666-555">777-666-555</a>
+                    <p>Napisz do nas maila:</p> <a id="mail"
+                            href="mailto:agencja.artystyczna.ps.mb@gmail.com"><span id="napiszMail">agencja.artystyczna.ps.mb@gmail.com</span></a>
                     <div class="mapaF"><a class="mapaLink"
                             href="https://www.google.com/maps/place/Hel/@54.6362617,18.6924552,12z/data=!3m1!4b1!4m6!3m5!1s0x46fd0429b0408aab:0x66e584a9f09d68ea!8m2!3d54.6083804!4d18.8007998!16zL20vMDJteDZs?entry=ttu"
                             target="_blank">Znajdź nas na mapie 🌎</a></div>
@@ -100,4 +100,16 @@ p {
     margin-right: 10px;
     margin-left: 10px;
 }
+
+@media screen and (max-width: 800px) {
+    .containerC {
+    width: 80%;
+}
+
+#napiszMail {
+    font-size: 15px;
+}
+}
+
+
 </style>

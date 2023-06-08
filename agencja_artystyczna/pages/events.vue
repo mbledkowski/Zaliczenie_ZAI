@@ -88,4 +88,12 @@ li {
     font-weight: bold;
     font-size: 20px;
 }
+
+@media screen and (max-width: 800px) {
+  .eventsText {
+    margin: 5px;
+    font-size: 10px;
+  }
+}
+
 </style>

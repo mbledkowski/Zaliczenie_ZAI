@@ -53,4 +53,13 @@ p {
 
 .authors {
     margin-top: 30px;
-}</style>
+}
+
+@media screen and (max-width: 800px) {
+  .serviceText {
+    margin: 10px;
+    font-size: 10px;
+  }
+}
+
+</style>

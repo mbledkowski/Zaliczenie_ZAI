@@ -64,4 +64,21 @@ p {
 .authors {
   margin-top: 30px;
 }
+
+@media screen and (max-width: 800px) {
+  .aboutText {
+    margin: 10px;
+    font-size: 10px;
+  }
+
+  #firstP {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .authors {
+    margin-top: 10px;
+  }
+
+}
 </style>
