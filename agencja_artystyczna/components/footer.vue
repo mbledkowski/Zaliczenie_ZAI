@@ -154,7 +154,8 @@ footer div {
     }
 
     .fbYt {
-        margin-left: 40px;
+        margin-left: 50px;
+        margin-right: -20px;
     }
 
     footer div {
