@@ -52,12 +52,13 @@
             </li>
           </ul>
         </div>
-        <select class="navbar-end select select-info w-32 max-w-xs" v-model="$i18n.locale">
+        <div class="navbar-end">
+        <select class="select select-info w-32 max-w-xs" v-model="$i18n.locale">
           <option disabled selected>Select language</option>
           <option v-for="(langValue, i) in langValues" :key="`Lang${i}`" :value="langValue">
             {{ lang[i] }}
           </option>
-        </select>
+        </select></div>
       </div>
     </div>
   </header>
