@@ -12,14 +12,14 @@
     <div class="card bg-base-100 shadow-xl aspect-[20/6]">
       <div class="card-body">
         <h2 class="card-title">{{ $t('about') }}</h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <p class="cP>">{{ $t('aboutP') }}</p>
       </div>
     </div></div>
     <div class="p-8 pl-4 w-full md:w-1/2 aspect-[20/6]">
     <div class="card bg-base-100 shadow-xl aspect-[20/6]">
       <div class="card-body">
         <h2 class="card-title">{{ $t('technique') }}</h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <p class="tP">{{ $t('techniqueP') }}></p>
       </div>
     </div></div>
   </section>

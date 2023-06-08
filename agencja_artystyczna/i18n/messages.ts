@@ -181,6 +181,14 @@ export default {
              artistic
              goals.</p>
      </div>`,
+     techniqueP: `
+     One of the other pieces of our technology is our online platform, which allows our artists and clients to easily access information, connect and manage projects. Through the tool, our artists can easily view and update their portfolios.
+     `,
+     aboutP: `
+     We are a dynamic and creative agency that represents artists from various fields. Our mission is to discover, support and promote talented artists to help them succeed and realize their dreams.
+     `,
+     findMap: 'Find us on the map 🌎',
+     agencyFooter: 'Artistic agency 2023',
   },
   pl: {
     welcome: 'Witaj',
@@ -366,5 +374,13 @@ export default {
             artystycznych
             celów.</p>
     </div>`,
+    techniqueP: `
+    Jednym z kluczowych elementów naszej technologii jest nasza platforma internetowa, która umożliwia naszym artystom i klientom łatwy dostęp do informacji, komunikację i zarządzanie projektami. Poprzez to narzędzie, nasi artyści mogą łatwo przeglądać i aktualizować swoje portfolio
+     `,
+     aboutP: `
+     Jesteśmy dynamiczną i kreatywną agencją, która zajmuje się reprezentacją artystów z różnych dziedzin. Nasza misja polega na odkrywaniu, wspieraniu i promowaniu utalentowanych artystów, aby pomóc im osiągnąć sukces i zrealizować swoje marzenia.
+     `,
+     findMap: 'Znajdź nas na mapie 🌎',
+     agencyFooter: 'Agencja artystyczna 2023',
   }
 }

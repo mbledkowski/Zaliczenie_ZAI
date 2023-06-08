@@ -3,10 +3,10 @@
     <div class="bg-base-300">
     <div class="up">
     <footer>
-        <div class="agencjaF">Agencja artystyczna 2023</div>
+        <div class="agencjaF">{{ $t('agencyFooter') }}</div>
         <div class="mapaF"><a class="mapaLink"
                 href="https://www.google.com/maps/place/Hel/@54.6362617,18.6924552,12z/data=!3m1!4b1!4m6!3m5!1s0x46fd0429b0408aab:0x66e584a9f09d68ea!8m2!3d54.6083804!4d18.8007998!16zL20vMDJteDZs?entry=ttu"
-                target="_blank">Znajdź nas na mapie 🌎</a></div>
+                target="_blank">{{ $t('findMap') }}</a></div>
         <div class="fbYt">
             <a href="https://www.facebook.com/profile.php?id=100089196045033" target="_blank" class="fa fa-facebook"></a>
             <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube"></a>
