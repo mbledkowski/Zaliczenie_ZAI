@@ -1,27 +1,13 @@
 <template>
     <div class="hero min-h-screen" style="background-image: url(/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
         <div class="hero-overlay bg-opacity-60">
-            <div class="containerC">
-                <div class="contactText">
-                    <p>Zadzwoń do nas:</p> <a id="phone" href="tel:777-666-555">777-666-555</a>
-                    <p>Napisz do nas maila:</p> <a id="mail"
-                            href="mailto:agencja.artystyczna.ps.mb@gmail.com"><span id="napiszMail">agencja.artystyczna.ps.mb@gmail.com</span></a>
-                    <div class="mapaF"><a class="mapaLink"
-                            href="https://www.google.com/maps/place/Hel/@54.6362617,18.6924552,12z/data=!3m1!4b1!4m6!3m5!1s0x46fd0429b0408aab:0x66e584a9f09d68ea!8m2!3d54.6083804!4d18.8007998!16zL20vMDJteDZs?entry=ttu"
-                            target="_blank">Znajdź nas na mapie 🌎</a></div>
-                    <div class="fbYt">
-                        <a href="https://www.facebook.com/profile.php?id=100089196045033" target="_blank"
-                            class="fa fa-facebook"></a>
-                        <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube"></a>
-                    </div>
-
-                </div>
+            <div class="containerC" v-html="$t('contactPage')">
             </div>
         </div>
     </div>
 </template>
 
-<style lang="css" scoped>
+<style lang="css">
 .containerC {
     text-align: justify;
     position: absolute;
