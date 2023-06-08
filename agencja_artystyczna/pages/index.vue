@@ -1,5 +1,7 @@
 <template>
   <hero />
+  <div class="bg-base-300">
+  <div class="marginPhotos">
   <section class="flex flex-row flex-wrap">
     <div v-for="(image, index) in firstSecImages" :key="index" class="w-full md:w-1/4 aspect-[20/12]">
       <img :src="image" :alt="image" class="w-full h-full object-cover" />
@@ -26,6 +28,8 @@
       <img :src="image" :alt="image" class="w-full h-full object-cover" />
     </div>
   </section>
+  </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -51,4 +55,10 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+.marginPhotos {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 </style>

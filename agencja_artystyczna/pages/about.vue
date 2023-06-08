@@ -79,6 +79,5 @@ p {
   .authors {
     margin-top: 10px;
   }
-
 }
 </style>
