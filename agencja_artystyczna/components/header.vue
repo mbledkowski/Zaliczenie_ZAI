@@ -28,7 +28,7 @@
                 </li>
             </ul>
           </div>
-          <NuxtLink id="home" class="btn btn-ghost normal-case text-xl truncate" to="/">{{ $t('comName') }}</NuxtLink>
+          <NuxtLink id="home" class="btn btn-ghost normal-case text-xl truncate" to="/">{{ $t('shortComName') }}</NuxtLink>
         </div>
         <div class="navbar-end hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
