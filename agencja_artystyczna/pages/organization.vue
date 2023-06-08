@@ -49,7 +49,7 @@
     </div>
 </template>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 .containerO {
     text-align: justify;
     position: absolute;
@@ -59,6 +59,29 @@
     width: 80%;
     background-color: #2a303c;
     border-radius: 1.5em;
+
+    .organizationText {
+        margin: 20px;
+        font-size: 18px;
+
+        #boldP {
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+
+    p {
+        margin-top: 12px;
+    }
+
+    ol {
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    li {
+        margin-top: 10px;
+    }
 }
 
 .containerLiO {
@@ -70,50 +93,56 @@
     width: 80%;
     background-color: #2a303c;
     border-radius: 1.5em;
-}
 
-.organizationText {
-    margin: 20px;
-    font-size: 18px;
+    .organizationText {
+        margin: 20px;
+        font-size: 18px;
 
-}
+        #boldP {
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
 
-p {
-    margin-top: 12px;
-}
+    p {
+        margin-top: 12px;
+    }
 
-ol {
-    margin-left: 40px;
-    margin-top: 10px;
-}
+    ol {
+        margin-left: 40px;
+        margin-top: 10px;
+    }
 
-li {
-    margin-top: 10px;
-}
-
-#boldP {
-    font-weight: bold;
-    font-size: 20px;
+    li {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
-    .organizationText {
-        margin: 5px;
-        font-size: 10px;
-    }
 
-    #boldP {
-        font-weight: bold;
-        font-size: 12px;
-    }
 
     .containerO {
-    width: 90%;
-}
+        width: 90%;
 
-.containerLiO {
-    width: 90%;
-}
+        .organizationText {
+            margin: 5px;
+            font-size: 10px;
+        }
+    }
+
+    .containerLiO {
+        width: 90%;
+
+        .organizationText {
+            margin: 5px;
+            font-size: 10px;
+
+            #boldP {
+                font-weight: bold;
+                font-size: 12px;
+            }
+        }
+    }
 
 }
 </style>
