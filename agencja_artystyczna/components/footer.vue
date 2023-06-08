@@ -1,5 +1,7 @@
 <template>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="bg-base-300">
+    <div class="up">
     <footer>
         <div class="agencjaF">Agencja artystyczna 2023</div>
         <div class="mapaF"><a class="mapaLink"
@@ -10,6 +12,8 @@
             <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube"></a>
         </div>
     </footer>
+    </div>
+    </div>
 </template>
 
 <style lang="css" scoped>
@@ -22,6 +26,10 @@ footer {
     margin: auto;
     width: 100%;
     height: 80px;
+}
+
+.up {
+    padding-top: 2rem;
 }
 
 footer div {
