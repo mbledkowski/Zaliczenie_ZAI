@@ -7,7 +7,7 @@
     </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .containerC {
     text-align: justify;
     position: absolute;
