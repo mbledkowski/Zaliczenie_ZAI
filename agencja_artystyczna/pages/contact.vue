@@ -18,8 +18,6 @@
     background-color: #2a303c;
     border-radius: 1.5em;
 
-
-
     .contactText {
         margin: 20px;
         font-size: 18px;
@@ -90,8 +88,6 @@
 
 
 }
-
-
 
 @media screen and (max-width: 800px) {
     .containerC {

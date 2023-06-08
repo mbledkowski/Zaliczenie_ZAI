@@ -7,7 +7,7 @@
     </div>
 </template>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 .containerE {
     text-align: justify;
     position: absolute;
@@ -17,18 +17,17 @@
     width: 80%;
     background-color: #2a303c;
     border-radius: 1.5em;
+    font-size: 18px;
 }
 
 
 .eventsText {
     margin: 20px;
     font-size: 18px;
-}
 
-p {
+    p {
     margin-top: 12px;
 }
-
 #firstP {
     font-size: 25px;
     margin-bottom: 40px;
@@ -46,6 +45,11 @@ li {
     font-weight: bold;
     font-size: 20px;
 }
+}
+
+
+
+
 
 @media screen and (max-width: 800px) {
   .eventsText {

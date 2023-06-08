@@ -40,8 +40,6 @@
             margin-top: 10px;
         }
     }
-
-
 }
 
 .containerLiO {
