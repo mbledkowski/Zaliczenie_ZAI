@@ -5,6 +5,22 @@
       <img :src="image" :alt="image" class="w-full h-full object-cover" />
     </div>
   </section>
+  <section class="flex flex-row flex-wrap bg-base-300">
+    <div class="p-8 pr-4 w-full md:w-1/2 aspect-[20/6]">
+    <div class="card bg-base-100 shadow-xl aspect-[20/6]">
+      <div class="card-body">
+        <h2 class="card-title">{{ $t('about') }}</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+      </div>
+    </div></div>
+    <div class="p-8 pl-4 w-full md:w-1/2 aspect-[20/6]">
+    <div class="card bg-base-100 shadow-xl aspect-[20/6]">
+      <div class="card-body">
+        <h2 class="card-title">{{ $t('technique') }}</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+      </div>
+    </div></div>
+  </section>
   <section class="flex flex-row flex-wrap">
     <div v-for="(image, index) in secondSecImages" :key="index" class="w-full md:w-1/2 aspect-[20/12]">
       <img :src="image" :alt="image" class="w-full h-full object-cover" />
